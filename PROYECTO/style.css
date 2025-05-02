@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('./tipografia/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('./tipografia/OpenSans-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+body{margin: 0;}
+.lista{display: inline;
+list-style: none;
+margin: 20px;
+padding:1px;
+right:0;;
+position: absolute;
+}
+
+.lista li{padding: 15px 20px;
+		display: inline;
+color:rgb(252, 248, 245) }
+		
+.imagen{
+	width: 100%;
+	height: 1000px;
+    background-size: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-left: 30px;
+    margin-top:30px
+}
+.primerfondo{
+    width:100%;
+    height: 1000px;
+    background-size: 2000px auto;
+    background-image: url(img/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}.container{
+    display: flex;
+    width: 100%
+}
+.box1{
+    flex: 0 0 50%;
+    height: 520px;
+    background-color: rgb(210, 57, 60);
+    box-sizing: border-box;
+
+}
+.box2{
+    flex: 0 0 50%;
+    height: 520px;
+    box-sizing: border-box;
+    background-color: rgb(222, 214, 191);
+}
+
+.title-1{font-size:47px;
+text-align: center;
+margin: 300px 10px 40px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'Open Sans Bold'}
+.title0{font-size:19px;
+text-align: center;
+margin: 40px 670px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'OpenSans-Regular';}
+
+.title{font-size:37px;
+text-align: center;
+margin-top: 150px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'Open Sans Bold'}
+.title2{font-size:19px;
+text-align: center;
+margin: 40px 220px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'OpenSans-Regular';}
+.title3{font-size:37px;
+text-align: center;
+margin-top: 150px;
+color: rgb(210, 57, 60);
+line-height: 1.2;
+font-family: 'Open Sans Bold'}
+.title4{font-size:19px;
+text-align: center;
+margin: 40px 220px;
+color: rgb(210, 57, 60);
+line-height: 1.2;
+font-family: 'OpenSans-Regular';}
+
+.segundofondo{background-image: url(img/Fondo2.jpg);
+width: 100%;
+height: 600px;
+background-repeat: no-repeat;
+background-size: 100%}
+
+
+.title5{font-size:47px;
+text-align: center;
+margin: 170px 10px 20px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'Open Sans Bold'}
+.title6{font-size:19px;
+text-align: center;
+margin: 20px 670px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'OpenSans-Regular';}
+
+.title7{font-size:19px;
+text-align: center;
+margin: 10px 40px;
+color: rgb(222, 214, 191);
+line-height: 1.2;
+font-family: 'OpenSans-Regular';}
+
+.tercerfondo{width: 100%;
+height: 350px;
+color:rgb(245, 240, 237);
+display: flex;}
+
+.box3{
+    flex: 0 0 50%;
+    height: 350px;
+    box-sizing: border-box;
+}
+.box3 img{margin: 90px 20px 30px 30px;}
+.box3 h2 {margin: -200px 20px 30px 250px;
+color: rgb(54, 54, 53);
+	font-size:30px;
+	font-weight: bold;
+}
+.box3 p {color:rgb(78, 77, 76);
+margin: -5px 50px 40px 250px;
+font-size: 23px}
+
+.ultimo{width:100%;
+height:200px;
+left: 0;
+azimuth: center;
+background-color: black;
+color:white;}
+.ultimot{margin: 80px 10px 150px}
